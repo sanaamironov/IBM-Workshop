@@ -1,0 +1,35 @@
+Experiment: mokipope (15802a80-a4ad-11e9-afed-0242ac110004)
+  Version: 1.7.0, 2019-07-12 14:02
+  Settings: 6/3/6, seed=705500862, GPUs enabled
+  Train data: UCI_Credit_Card.csv (30000, 24)
+  Validation data: N/A
+  Test data: N/A
+  Target column: default_payment_next_month (binary, 22.120% target class)
+System specs: Docker/Linux, 570 GB, 128 CPU cores, 1/1 GPU
+  Max memory usage: 3.37 GB, 0 GB GPU
+Recipe: AutoDL (27 iterations, 4 individuals)
+  Validation scheme: stratified, 1 internal holdout
+  Feature engineering: 737 features scored (22 selected)
+Timing:
+  Data preparation: 9.13 secs
+  Shift/Leakage detection: 4.05 secs
+  Model and feature tuning: 144.46 secs (18 of 32 models trained)
+  Feature evolution: 18.75 secs (6 of 64 models trained)
+  Final pipeline training: 44.30 secs (10 models trained)
+  Python / MOJO scorer building: 19.06 secs / 1.28 secs
+Validation score: LOGLOSS = 0.43559 +/- 0.0072176 (baseline)
+Validation score: LOGLOSS = 0.426 +/- 0.0085383 (final pipeline)
+Test score:       LOGLOSS = N/A
+
+Optimal threshold (max. F1): 0.28592
+Final validation scores (internal holdout, bootstrap on folds) +/- stddev:
+                   MCC = 0.43213 +/- 0.013112 (more is better)
+              MACROAUC = 0.78576 +/- 0.0070701 (more is better)
+                  GINI = 0.57152 +/- 0.01414 (more is better)
+                    F2 = 0.64715 +/- 0.007697 (more is better)
+                    F1 = 0.55196 +/- 0.010569 (more is better)
+                   F05 = 0.58775 +/- 0.013305 (more is better)
+                 AUCPR = 0.56519 +/- 0.014075 (more is better)
+                   AUC = 0.78576 +/- 0.0070701 (more is better)
+              ACCURACY = 0.82295 +/- 0.0048736 (more is better)
+    optimized: LOGLOSS = 0.426 +/- 0.0085383 (less is better)

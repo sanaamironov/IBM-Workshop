@@ -1,0 +1,94 @@
+{
+    "index": {
+        "0": 0,
+        "1": 1
+    },
+    "Type": {
+        "0": "XGBoostGBMModel",
+        "1": "LightGBMModel"
+    },
+    "Num Folds": {
+        "0": 5,
+        "1": 5
+    },
+    "Model Weight": {
+        "0": 0.6666666667,
+        "1": 0.3333333333
+    },
+    "booster": {
+        "0": "gbtree",
+        "1": "lightgbm"
+    },
+    "max_depth": {
+        "0": "",
+        "1": 6
+    },
+    "max_leaves": {
+        "0": "",
+        "1": 64
+    },
+    "subsample": {
+        "0": "",
+        "1": 0.7
+    },
+    "colsample_bytree": {
+        "0": "",
+        "1": 0.8
+    },
+    "tree_method": {
+        "0": "",
+        "1": "gpu_hist"
+    },
+    "grow_policy": {
+        "0": "",
+        "1": "depthwise"
+    },
+    "random_state": {
+        "0": "",
+        "1": 43992824
+    },
+    "learning rate": {
+        "0": "",
+        "1": 0.04
+    },
+    "Target Transformer": {
+        "0": "",
+        "1": "str"
+    },
+    "Fitted features": {
+        "0": 22,
+        "1": 20
+    },
+    "Fit iterations [each fold]": {
+        "0": [
+            134,
+            136,
+            104,
+            142,
+            194
+        ],
+        "1": [
+            141,
+            85,
+            102,
+            156,
+            103
+        ]
+    },
+    "Fit tree/step count [each fold]": {
+        "0": [
+            134,
+            136,
+            104,
+            142,
+            194
+        ],
+        "1": [
+            141,
+            85,
+            102,
+            156,
+            103
+        ]
+    }
+}

@@ -1,0 +1,1 @@
+Pipeline Description: Final StackedEnsemble pipeline with ensemble_level=2 transforming 22 original features -> 22 features in each of 10 models each fit on 5 internal holdout splits then linearly blended

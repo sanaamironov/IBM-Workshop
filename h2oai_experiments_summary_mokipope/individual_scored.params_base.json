@@ -1,0 +1,3031 @@
+{
+    "indiv_id": {
+        "0": 0
+    },
+    "iter_num": {
+        "0": 9
+    },
+    "accuracy": {
+        "0": 6
+    },
+    "time_tolerance": {
+        "0": 3
+    },
+    "interpretability": {
+        "0": 6
+    },
+    "score": {
+        "0": 0.4319276985
+    },
+    "score_sd": {
+        "0": 0.0063187063
+    },
+    "top derived_features": {
+        "0": "[['10_PAY_0', 1.0], ['8_LIMIT_BAL', 0.12849579751491547], ['17_PAY_AMT2', 0.1250321865081787]]"
+    },
+    "top original_features": {
+        "0": "[['PAY_0', 0.4042402943560678], ['LIMIT_BAL', 0.05194317901094711], ['PAY_AMT2', 0.050543047878048926]]"
+    },
+    "training_times": {
+        "0": 1.0905222893
+    },
+    "best_iterations": {
+        "0": 44
+    },
+    "ngenes_start": {
+        "0": 22
+    },
+    "ngenes_max": {
+        "0": 22488
+    },
+    "ngenes": {
+        "0": 22
+    },
+    "ngenes_dead": {
+        "0": 0
+    },
+    "nfeatures_max": {
+        "0": 22488
+    },
+    "nfeatures": {
+        "0": 22
+    },
+    "model_name": {
+        "0": "XGBOOSTGBM"
+    },
+    "target_transformer_name": {
+        "0": "NoneType"
+    },
+    "booster": {
+        "0": "gbtree"
+    },
+    "n_gpus": {
+        "0": 1
+    },
+    "gpu_id": {
+        "0": 0
+    },
+    "n_jobs": {
+        "0": 32
+    },
+    "n_estimators": {
+        "0": 600
+    },
+    "num_classes": {
+        "0": 2
+    },
+    "num_class": {
+        "0": 1
+    },
+    "score_f_name": {
+        "0": "LOGLOSS"
+    },
+    "random_state": {
+        "0": 43992824
+    },
+    "learning_rate": {
+        "0": 0.1
+    },
+    "reg_alpha": {
+        "0": 0.0
+    },
+    "reg_lambda": {
+        "0": 1.0
+    },
+    "gamma": {
+        "0": 0
+    },
+    "max_bin": {
+        "0": 256
+    },
+    "scale_pos_weight": {
+        "0": 1
+    },
+    "max_delta_step": {
+        "0": 0
+    },
+    "min_child_weight": {
+        "0": 1
+    },
+    "subsample": {
+        "0": 0.7
+    },
+    "colsample_bytree": {
+        "0": 0.8
+    },
+    "tree_method": {
+        "0": "gpu_hist"
+    },
+    "grow_policy": {
+        "0": "depthwise"
+    },
+    "max_depth": {
+        "0": 6
+    },
+    "max_leaves": {
+        "0": 0
+    },
+    "early_stopping_rounds": {
+        "0": 10
+    },
+    "objective": {
+        "0": "binary:logistic"
+    },
+    "eval_metric": {
+        "0": "logloss"
+    },
+    "early_stopping_threshold": {
+        "0": 0.0001
+    },
+    "monotonicity_constraints": {
+        "0": false
+    },
+    "silent": {
+        "0": true
+    },
+    "debug_verbose": {
+        "0": 0
+    },
+    "model_origin": {
+        "0": "RANDOM"
+    }
+}{
+    "indiv_id": {
+        "3": 0
+    },
+    "iter_num": {
+        "3": 10
+    },
+    "accuracy": {
+        "3": 6
+    },
+    "time_tolerance": {
+        "3": 3
+    },
+    "interpretability": {
+        "3": 6
+    },
+    "score": {
+        "3": 0.4340291104
+    },
+    "score_sd": {
+        "3": 0.0072176353
+    },
+    "top derived_features": {
+        "3": "[['48_NumToCatWoE:PAY_0:PAY_4:PAY_AMT1.0', 1.0], ['32_CVTE:PAY_0:PAY_4:PAY_5.0', 0.20614834129810333], ['8_LIMIT_BAL', 0.07906757295131683]]"
+    },
+    "top original_features": {
+        "3": "[['PAY_0', 0.2838728452274818], ['PAY_4', 0.22612272257864469], ['PAY_AMT1', 0.1773341414671706]]"
+    },
+    "training_times": {
+        "3": 0.5553252697
+    },
+    "best_iterations": {
+        "3": 30
+    },
+    "ngenes_start": {
+        "3": 44
+    },
+    "ngenes_max": {
+        "3": 100000000
+    },
+    "ngenes": {
+        "3": 41
+    },
+    "ngenes_dead": {
+        "3": 13
+    },
+    "nfeatures_max": {
+        "3": 100000000
+    },
+    "nfeatures": {
+        "3": 45
+    },
+    "model_name": {
+        "3": "LIGHTGBM"
+    },
+    "target_transformer_name": {
+        "3": "NoneType"
+    },
+    "booster": {
+        "3": "lightgbm"
+    },
+    "n_gpus": {
+        "3": 1
+    },
+    "gpu_id": {
+        "3": 0
+    },
+    "n_jobs": {
+        "3": 32
+    },
+    "n_estimators": {
+        "3": 600
+    },
+    "num_classes": {
+        "3": 2
+    },
+    "num_class": {
+        "3": 1
+    },
+    "score_f_name": {
+        "3": "LOGLOSS"
+    },
+    "random_state": {
+        "3": 43992824
+    },
+    "learning_rate": {
+        "3": 0.1
+    },
+    "reg_alpha": {
+        "3": 0.0
+    },
+    "reg_lambda": {
+        "3": 1.0
+    },
+    "gamma": {
+        "3": 0
+    },
+    "max_bin": {
+        "3": 256
+    },
+    "scale_pos_weight": {
+        "3": 1
+    },
+    "max_delta_step": {
+        "3": 0
+    },
+    "min_child_weight": {
+        "3": 1
+    },
+    "subsample": {
+        "3": 0.7
+    },
+    "colsample_bytree": {
+        "3": 0.8
+    },
+    "tree_method": {
+        "3": "gpu_hist"
+    },
+    "grow_policy": {
+        "3": "depthwise"
+    },
+    "max_leaves": {
+        "3": 0
+    },
+    "max_depth": {
+        "3": 6
+    },
+    "min_data_in_bin": {
+        "3": 1
+    },
+    "min_child_samples": {
+        "3": 1
+    },
+    "boosting_type": {
+        "3": "gbdt"
+    },
+    "early_stopping_rounds": {
+        "3": 10
+    },
+    "objective": {
+        "3": "binary:logistic"
+    },
+    "eval_metric": {
+        "3": "logloss"
+    },
+    "monotonicity_constraints": {
+        "3": false
+    },
+    "silent": {
+        "3": true
+    },
+    "model_origin": {
+        "3": "RANDOM"
+    },
+    "early_stopping_threshold": {
+        "3": ""
+    },
+    "debug_verbose": {
+        "3": ""
+    }
+}{
+    "indiv_id": {
+        "4": 0
+    },
+    "iter_num": {
+        "4": 11
+    },
+    "accuracy": {
+        "4": 6
+    },
+    "time_tolerance": {
+        "4": 3
+    },
+    "interpretability": {
+        "4": 6
+    },
+    "score": {
+        "4": 0.4345323221
+    },
+    "score_sd": {
+        "4": 0.0059342713
+    },
+    "top derived_features": {
+        "4": "[['52_WoE:PAY_0:PAY_5.0', 1.0], ['38_CVTE:PAY_0:PAY_3.0', 0.44627320766448975], ['8_LIMIT_BAL', 0.07979943603277206]]"
+    },
+    "top original_features": {
+        "4": "[['PAY_0', 0.33472883624601635], ['PAY_5', 0.2030572675225677], ['PAY_3', 0.09717522872623661]]"
+    },
+    "training_times": {
+        "4": 0.5425863266
+    },
+    "best_iterations": {
+        "4": 31
+    },
+    "ngenes_start": {
+        "4": 44
+    },
+    "ngenes_max": {
+        "4": 100000000
+    },
+    "ngenes": {
+        "4": 42
+    },
+    "ngenes_dead": {
+        "4": 12
+    },
+    "nfeatures_max": {
+        "4": 100000000
+    },
+    "nfeatures": {
+        "4": 48
+    },
+    "model_name": {
+        "4": "LIGHTGBM"
+    },
+    "target_transformer_name": {
+        "4": "NoneType"
+    },
+    "booster": {
+        "4": "lightgbm"
+    },
+    "n_gpus": {
+        "4": 1
+    },
+    "gpu_id": {
+        "4": 0
+    },
+    "n_jobs": {
+        "4": 32
+    },
+    "n_estimators": {
+        "4": 600
+    },
+    "num_classes": {
+        "4": 2
+    },
+    "num_class": {
+        "4": 1
+    },
+    "score_f_name": {
+        "4": "LOGLOSS"
+    },
+    "random_state": {
+        "4": 43992824
+    },
+    "learning_rate": {
+        "4": 0.1
+    },
+    "reg_alpha": {
+        "4": 0.0
+    },
+    "reg_lambda": {
+        "4": 1.0
+    },
+    "gamma": {
+        "4": 0
+    },
+    "max_bin": {
+        "4": 256
+    },
+    "scale_pos_weight": {
+        "4": 1
+    },
+    "max_delta_step": {
+        "4": 0
+    },
+    "min_child_weight": {
+        "4": 1
+    },
+    "subsample": {
+        "4": 0.7
+    },
+    "colsample_bytree": {
+        "4": 0.8
+    },
+    "tree_method": {
+        "4": "gpu_hist"
+    },
+    "grow_policy": {
+        "4": "depthwise"
+    },
+    "max_leaves": {
+        "4": 0
+    },
+    "max_depth": {
+        "4": 6
+    },
+    "min_data_in_bin": {
+        "4": 1
+    },
+    "min_child_samples": {
+        "4": 1
+    },
+    "boosting_type": {
+        "4": "gbdt"
+    },
+    "early_stopping_rounds": {
+        "4": 10
+    },
+    "objective": {
+        "4": "binary:logistic"
+    },
+    "eval_metric": {
+        "4": "logloss"
+    },
+    "monotonicity_constraints": {
+        "4": false
+    },
+    "silent": {
+        "4": true
+    },
+    "model_origin": {
+        "4": "RANDOM"
+    },
+    "early_stopping_threshold": {
+        "4": ""
+    },
+    "debug_verbose": {
+        "4": ""
+    }
+}{
+    "indiv_id": {
+        "5": 0
+    },
+    "iter_num": {
+        "5": 12
+    },
+    "accuracy": {
+        "5": 6
+    },
+    "time_tolerance": {
+        "5": 3
+    },
+    "interpretability": {
+        "5": 6
+    },
+    "score": {
+        "5": 0.4328335806
+    },
+    "score_sd": {
+        "5": 0.0060774292
+    },
+    "top derived_features": {
+        "5": "[['27_ClusterTE:ClusterID43:PAY_0:PAY_2:PAY_3:PAY_AMT2.0', 1.0], ['10_PAY_0', 0.6901562213897705], ['32_NumToCatWoE:LIMIT_BAL:PAY_6.0', 0.10973173379898071]]"
+    },
+    "top original_features": {
+        "5": "[['PAY_0', 0.2722184254750624], ['PAY_AMT2', 0.17037925616183036], ['PAY_2', 0.16511845064023556]]"
+    },
+    "training_times": {
+        "5": 0.5691583157
+    },
+    "best_iterations": {
+        "5": 29
+    },
+    "ngenes_start": {
+        "5": 44
+    },
+    "ngenes_max": {
+        "5": 100000000
+    },
+    "ngenes": {
+        "5": 36
+    },
+    "ngenes_dead": {
+        "5": 3
+    },
+    "nfeatures_max": {
+        "5": 100000000
+    },
+    "nfeatures": {
+        "5": 36
+    },
+    "model_name": {
+        "5": "LIGHTGBM"
+    },
+    "target_transformer_name": {
+        "5": "NoneType"
+    },
+    "booster": {
+        "5": "lightgbm"
+    },
+    "n_gpus": {
+        "5": 1
+    },
+    "gpu_id": {
+        "5": 0
+    },
+    "n_jobs": {
+        "5": 32
+    },
+    "n_estimators": {
+        "5": 600
+    },
+    "num_classes": {
+        "5": 2
+    },
+    "num_class": {
+        "5": 1
+    },
+    "score_f_name": {
+        "5": "LOGLOSS"
+    },
+    "random_state": {
+        "5": 43992824
+    },
+    "learning_rate": {
+        "5": 0.1
+    },
+    "reg_alpha": {
+        "5": 0.0
+    },
+    "reg_lambda": {
+        "5": 1.0
+    },
+    "gamma": {
+        "5": 0
+    },
+    "max_bin": {
+        "5": 256
+    },
+    "scale_pos_weight": {
+        "5": 1
+    },
+    "max_delta_step": {
+        "5": 0
+    },
+    "min_child_weight": {
+        "5": 1
+    },
+    "subsample": {
+        "5": 0.7
+    },
+    "colsample_bytree": {
+        "5": 0.8
+    },
+    "tree_method": {
+        "5": "gpu_hist"
+    },
+    "grow_policy": {
+        "5": "depthwise"
+    },
+    "max_leaves": {
+        "5": 0
+    },
+    "max_depth": {
+        "5": 6
+    },
+    "min_data_in_bin": {
+        "5": 1
+    },
+    "min_child_samples": {
+        "5": 1
+    },
+    "boosting_type": {
+        "5": "gbdt"
+    },
+    "early_stopping_rounds": {
+        "5": 10
+    },
+    "objective": {
+        "5": "binary:logistic"
+    },
+    "eval_metric": {
+        "5": "logloss"
+    },
+    "monotonicity_constraints": {
+        "5": false
+    },
+    "silent": {
+        "5": true
+    },
+    "model_origin": {
+        "5": "RANDOM"
+    },
+    "early_stopping_threshold": {
+        "5": ""
+    },
+    "debug_verbose": {
+        "5": ""
+    }
+}{
+    "indiv_id": {
+        "6": 0
+    },
+    "iter_num": {
+        "6": 13
+    },
+    "accuracy": {
+        "6": 6
+    },
+    "time_tolerance": {
+        "6": 3
+    },
+    "interpretability": {
+        "6": 6
+    },
+    "score": {
+        "6": 0.4353311859
+    },
+    "score_sd": {
+        "6": 0.0061481687
+    },
+    "top derived_features": {
+        "6": "[['10_PAY_0', 1.0], ['49_NumToCatWoE:BILL_AMT1:PAY_0:PAY_AMT3.0', 0.9659671783447266], ['52_ClusterTE:ClusterID30:BILL_AMT2:PAY_0:PAY_4:PAY_AMT3.0', 0.47781994938850403]]"
+    },
+    "top original_features": {
+        "6": "[['PAY_0', 0.278701628465091], ['PAY_AMT3', 0.12369029403324851], ['BILL_AMT1', 0.10028916260812541]]"
+    },
+    "training_times": {
+        "6": 1.0987935066
+    },
+    "best_iterations": {
+        "6": 40
+    },
+    "ngenes_start": {
+        "6": 44
+    },
+    "ngenes_max": {
+        "6": 22488
+    },
+    "ngenes": {
+        "6": 43
+    },
+    "ngenes_dead": {
+        "6": 10
+    },
+    "nfeatures_max": {
+        "6": 22488
+    },
+    "nfeatures": {
+        "6": 45
+    },
+    "model_name": {
+        "6": "XGBOOSTGBM"
+    },
+    "target_transformer_name": {
+        "6": "NoneType"
+    },
+    "booster": {
+        "6": "gbtree"
+    },
+    "n_gpus": {
+        "6": 1
+    },
+    "gpu_id": {
+        "6": 0
+    },
+    "n_jobs": {
+        "6": 32
+    },
+    "n_estimators": {
+        "6": 600
+    },
+    "num_classes": {
+        "6": 2
+    },
+    "num_class": {
+        "6": 1
+    },
+    "score_f_name": {
+        "6": "LOGLOSS"
+    },
+    "random_state": {
+        "6": 43992824
+    },
+    "learning_rate": {
+        "6": 0.1
+    },
+    "reg_alpha": {
+        "6": 0.0
+    },
+    "reg_lambda": {
+        "6": 1.0
+    },
+    "gamma": {
+        "6": 0
+    },
+    "max_bin": {
+        "6": 256
+    },
+    "scale_pos_weight": {
+        "6": 1
+    },
+    "max_delta_step": {
+        "6": 0
+    },
+    "min_child_weight": {
+        "6": 1
+    },
+    "subsample": {
+        "6": 0.7
+    },
+    "colsample_bytree": {
+        "6": 0.8
+    },
+    "tree_method": {
+        "6": "gpu_hist"
+    },
+    "grow_policy": {
+        "6": "depthwise"
+    },
+    "max_leaves": {
+        "6": 0
+    },
+    "max_depth": {
+        "6": 6
+    },
+    "min_data_in_bin": {
+        "6": ""
+    },
+    "min_child_samples": {
+        "6": ""
+    },
+    "boosting_type": {
+        "6": ""
+    },
+    "early_stopping_rounds": {
+        "6": 10
+    },
+    "objective": {
+        "6": "binary:logistic"
+    },
+    "eval_metric": {
+        "6": "logloss"
+    },
+    "monotonicity_constraints": {
+        "6": false
+    },
+    "silent": {
+        "6": true
+    },
+    "model_origin": {
+        "6": "RANDOM"
+    },
+    "early_stopping_threshold": {
+        "6": 0.0001
+    },
+    "debug_verbose": {
+        "6": 0
+    }
+}{
+    "indiv_id": {
+        "7": 0
+    },
+    "iter_num": {
+        "7": 14
+    },
+    "accuracy": {
+        "7": 6
+    },
+    "time_tolerance": {
+        "7": 3
+    },
+    "interpretability": {
+        "7": 6
+    },
+    "score": {
+        "7": 0.4339704461
+    },
+    "score_sd": {
+        "7": 0.0056747077
+    },
+    "top derived_features": {
+        "7": "[['10_PAY_0', 1.0], ['31_ClusterTE:ClusterID60:BILL_AMT3:PAY_0:PAY_AMT1:PAY_AMT5.0', 0.41621851921081543], ['29_NumToCatTE:PAY_0:PAY_2:PAY_6:PAY_AMT3.0', 0.2521657645702362]]"
+    },
+    "top original_features": {
+        "7": "[['PAY_0', 0.30624667483192275], ['PAY_AMT5', 0.08575158912520278], ['BILL_AMT3', 0.06650946100189635]]"
+    },
+    "training_times": {
+        "7": 1.0935649872
+    },
+    "best_iterations": {
+        "7": 51
+    },
+    "ngenes_start": {
+        "7": 44
+    },
+    "ngenes_max": {
+        "7": 22488
+    },
+    "ngenes": {
+        "7": 41
+    },
+    "ngenes_dead": {
+        "7": 2
+    },
+    "nfeatures_max": {
+        "7": 22488
+    },
+    "nfeatures": {
+        "7": 41
+    },
+    "model_name": {
+        "7": "XGBOOSTGBM"
+    },
+    "target_transformer_name": {
+        "7": "NoneType"
+    },
+    "booster": {
+        "7": "gbtree"
+    },
+    "n_gpus": {
+        "7": 1
+    },
+    "gpu_id": {
+        "7": 0
+    },
+    "n_jobs": {
+        "7": 32
+    },
+    "n_estimators": {
+        "7": 600
+    },
+    "num_classes": {
+        "7": 2
+    },
+    "num_class": {
+        "7": 1
+    },
+    "score_f_name": {
+        "7": "LOGLOSS"
+    },
+    "random_state": {
+        "7": 43992824
+    },
+    "learning_rate": {
+        "7": 0.1
+    },
+    "reg_alpha": {
+        "7": 0.0
+    },
+    "reg_lambda": {
+        "7": 1.0
+    },
+    "gamma": {
+        "7": 0
+    },
+    "max_bin": {
+        "7": 256
+    },
+    "scale_pos_weight": {
+        "7": 1
+    },
+    "max_delta_step": {
+        "7": 0
+    },
+    "min_child_weight": {
+        "7": 1
+    },
+    "subsample": {
+        "7": 0.7
+    },
+    "colsample_bytree": {
+        "7": 0.8
+    },
+    "tree_method": {
+        "7": "gpu_hist"
+    },
+    "grow_policy": {
+        "7": "depthwise"
+    },
+    "max_leaves": {
+        "7": 0
+    },
+    "max_depth": {
+        "7": 6
+    },
+    "min_data_in_bin": {
+        "7": ""
+    },
+    "min_child_samples": {
+        "7": ""
+    },
+    "boosting_type": {
+        "7": ""
+    },
+    "early_stopping_rounds": {
+        "7": 10
+    },
+    "objective": {
+        "7": "binary:logistic"
+    },
+    "eval_metric": {
+        "7": "logloss"
+    },
+    "monotonicity_constraints": {
+        "7": false
+    },
+    "silent": {
+        "7": true
+    },
+    "model_origin": {
+        "7": "RANDOM"
+    },
+    "early_stopping_threshold": {
+        "7": 0.0001
+    },
+    "debug_verbose": {
+        "7": 0
+    }
+}{
+    "indiv_id": {
+        "8": 0
+    },
+    "iter_num": {
+        "8": 15
+    },
+    "accuracy": {
+        "8": 6
+    },
+    "time_tolerance": {
+        "8": 3
+    },
+    "interpretability": {
+        "8": 6
+    },
+    "score": {
+        "8": 0.4330324636
+    },
+    "score_sd": {
+        "8": 0.0056512751
+    },
+    "top derived_features": {
+        "8": "[['30_ClusterTE:ClusterID61:EDUCATION:PAY_0:PAY_AMT2.0', 1.0], ['10_PAY_0', 0.33615410327911377], ['24_NumToCatWoE:PAY_0.0', 0.3037395775318146]]"
+    },
+    "top original_features": {
+        "8": "[['PAY_0', 0.25447025306474547], ['PAY_AMT2', 0.14561068624908255], ['EDUCATION', 0.12135267815498277]]"
+    },
+    "training_times": {
+        "8": 1.0244727135
+    },
+    "best_iterations": {
+        "8": 38
+    },
+    "ngenes_start": {
+        "8": 44
+    },
+    "ngenes_max": {
+        "8": 22488
+    },
+    "ngenes": {
+        "8": 38
+    },
+    "ngenes_dead": {
+        "8": 1
+    },
+    "nfeatures_max": {
+        "8": 22488
+    },
+    "nfeatures": {
+        "8": 38
+    },
+    "model_name": {
+        "8": "XGBOOSTGBM"
+    },
+    "target_transformer_name": {
+        "8": "NoneType"
+    },
+    "booster": {
+        "8": "gbtree"
+    },
+    "n_gpus": {
+        "8": 1
+    },
+    "gpu_id": {
+        "8": 0
+    },
+    "n_jobs": {
+        "8": 32
+    },
+    "n_estimators": {
+        "8": 600
+    },
+    "num_classes": {
+        "8": 2
+    },
+    "num_class": {
+        "8": 1
+    },
+    "score_f_name": {
+        "8": "LOGLOSS"
+    },
+    "random_state": {
+        "8": 43992824
+    },
+    "learning_rate": {
+        "8": 0.1
+    },
+    "reg_alpha": {
+        "8": 0.0
+    },
+    "reg_lambda": {
+        "8": 1.0
+    },
+    "gamma": {
+        "8": 0
+    },
+    "max_bin": {
+        "8": 256
+    },
+    "scale_pos_weight": {
+        "8": 1
+    },
+    "max_delta_step": {
+        "8": 0
+    },
+    "min_child_weight": {
+        "8": 1
+    },
+    "subsample": {
+        "8": 0.7
+    },
+    "colsample_bytree": {
+        "8": 0.8
+    },
+    "tree_method": {
+        "8": "gpu_hist"
+    },
+    "grow_policy": {
+        "8": "depthwise"
+    },
+    "max_leaves": {
+        "8": 0
+    },
+    "max_depth": {
+        "8": 6
+    },
+    "min_data_in_bin": {
+        "8": ""
+    },
+    "min_child_samples": {
+        "8": ""
+    },
+    "boosting_type": {
+        "8": ""
+    },
+    "early_stopping_rounds": {
+        "8": 10
+    },
+    "objective": {
+        "8": "binary:logistic"
+    },
+    "eval_metric": {
+        "8": "logloss"
+    },
+    "monotonicity_constraints": {
+        "8": false
+    },
+    "silent": {
+        "8": true
+    },
+    "model_origin": {
+        "8": "RANDOM"
+    },
+    "early_stopping_threshold": {
+        "8": 0.0001
+    },
+    "debug_verbose": {
+        "8": 0
+    }
+}{
+    "indiv_id": {
+        "9": 0
+    },
+    "iter_num": {
+        "9": 16
+    },
+    "accuracy": {
+        "9": 6
+    },
+    "time_tolerance": {
+        "9": 3
+    },
+    "interpretability": {
+        "9": 6
+    },
+    "score": {
+        "9": 0.434406095
+    },
+    "score_sd": {
+        "9": 0.0061796363
+    },
+    "top derived_features": {
+        "9": "[['59_WoE:PAY_0:PAY_3.0', 1.0], ['72_ClusterTE:ClusterID44:BILL_AMT4:PAY_0:PAY_2:PAY_AMT3.0', 0.5652784109115601], ['51_CVTE:PAY_0:PAY_2:PAY_3.0', 0.5047821402549744]]"
+    },
+    "top original_features": {
+        "9": "[['PAY_0', 0.28659959960080095], ['PAY_3', 0.17910706077750801], ['PAY_2', 0.12792300791770736]]"
+    },
+    "training_times": {
+        "9": 0.6958417892
+    },
+    "best_iterations": {
+        "9": 32
+    },
+    "ngenes_start": {
+        "9": 66
+    },
+    "ngenes_max": {
+        "9": 100000000
+    },
+    "ngenes": {
+        "9": 61
+    },
+    "ngenes_dead": {
+        "9": 13
+    },
+    "nfeatures_max": {
+        "9": 100000000
+    },
+    "nfeatures": {
+        "9": 70
+    },
+    "model_name": {
+        "9": "LIGHTGBM"
+    },
+    "target_transformer_name": {
+        "9": "NoneType"
+    },
+    "booster": {
+        "9": "lightgbm"
+    },
+    "n_gpus": {
+        "9": 1
+    },
+    "gpu_id": {
+        "9": 0
+    },
+    "n_jobs": {
+        "9": 32
+    },
+    "n_estimators": {
+        "9": 600
+    },
+    "num_classes": {
+        "9": 2
+    },
+    "num_class": {
+        "9": 1
+    },
+    "score_f_name": {
+        "9": "LOGLOSS"
+    },
+    "random_state": {
+        "9": 43992824
+    },
+    "learning_rate": {
+        "9": 0.1
+    },
+    "reg_alpha": {
+        "9": 0.0
+    },
+    "reg_lambda": {
+        "9": 1.0
+    },
+    "gamma": {
+        "9": 0
+    },
+    "max_bin": {
+        "9": 256
+    },
+    "scale_pos_weight": {
+        "9": 1
+    },
+    "max_delta_step": {
+        "9": 0
+    },
+    "min_child_weight": {
+        "9": 1
+    },
+    "subsample": {
+        "9": 0.7
+    },
+    "colsample_bytree": {
+        "9": 0.8
+    },
+    "tree_method": {
+        "9": "gpu_hist"
+    },
+    "grow_policy": {
+        "9": "depthwise"
+    },
+    "max_leaves": {
+        "9": 0
+    },
+    "max_depth": {
+        "9": 6
+    },
+    "min_data_in_bin": {
+        "9": 1
+    },
+    "min_child_samples": {
+        "9": 1
+    },
+    "boosting_type": {
+        "9": "gbdt"
+    },
+    "early_stopping_rounds": {
+        "9": 10
+    },
+    "objective": {
+        "9": "binary:logistic"
+    },
+    "eval_metric": {
+        "9": "logloss"
+    },
+    "monotonicity_constraints": {
+        "9": false
+    },
+    "silent": {
+        "9": true
+    },
+    "model_origin": {
+        "9": "RANDOM"
+    },
+    "early_stopping_threshold": {
+        "9": ""
+    },
+    "debug_verbose": {
+        "9": ""
+    }
+}{
+    "indiv_id": {
+        "10": 0
+    },
+    "iter_num": {
+        "10": 17
+    },
+    "accuracy": {
+        "10": 6
+    },
+    "time_tolerance": {
+        "10": 3
+    },
+    "interpretability": {
+        "10": 6
+    },
+    "score": {
+        "10": 0.4351856953
+    },
+    "score_sd": {
+        "10": 0.0048566672
+    },
+    "top derived_features": {
+        "10": "[['54_ClusterTE:ClusterID79:LIMIT_BAL:PAY_0:PAY_3.0', 1.0], ['44_NumToCatTE:PAY_0:PAY_5.0', 0.8624283671379089], ['53_ClusterTE:ClusterID71:PAY_0:PAY_3.0', 0.33045822381973267]]"
+    },
+    "top original_features": {
+        "10": "[['PAY_0', 0.3122959877975656], ['LIMIT_BAL', 0.13079046632110605], ['PAY_3', 0.130321052305767]]"
+    },
+    "training_times": {
+        "10": 0.590057373
+    },
+    "best_iterations": {
+        "10": 24
+    },
+    "ngenes_start": {
+        "10": 66
+    },
+    "ngenes_max": {
+        "10": 100000000
+    },
+    "ngenes": {
+        "10": 53
+    },
+    "ngenes_dead": {
+        "10": 5
+    },
+    "nfeatures_max": {
+        "10": 100000000
+    },
+    "nfeatures": {
+        "10": 53
+    },
+    "model_name": {
+        "10": "LIGHTGBM"
+    },
+    "target_transformer_name": {
+        "10": "NoneType"
+    },
+    "booster": {
+        "10": "lightgbm"
+    },
+    "n_gpus": {
+        "10": 1
+    },
+    "gpu_id": {
+        "10": 0
+    },
+    "n_jobs": {
+        "10": 32
+    },
+    "n_estimators": {
+        "10": 600
+    },
+    "num_classes": {
+        "10": 2
+    },
+    "num_class": {
+        "10": 1
+    },
+    "score_f_name": {
+        "10": "LOGLOSS"
+    },
+    "random_state": {
+        "10": 43992824
+    },
+    "learning_rate": {
+        "10": 0.1
+    },
+    "reg_alpha": {
+        "10": 0.0
+    },
+    "reg_lambda": {
+        "10": 1.0
+    },
+    "gamma": {
+        "10": 0
+    },
+    "max_bin": {
+        "10": 256
+    },
+    "scale_pos_weight": {
+        "10": 1
+    },
+    "max_delta_step": {
+        "10": 0
+    },
+    "min_child_weight": {
+        "10": 1
+    },
+    "subsample": {
+        "10": 0.7
+    },
+    "colsample_bytree": {
+        "10": 0.8
+    },
+    "tree_method": {
+        "10": "gpu_hist"
+    },
+    "grow_policy": {
+        "10": "depthwise"
+    },
+    "max_leaves": {
+        "10": 0
+    },
+    "max_depth": {
+        "10": 6
+    },
+    "min_data_in_bin": {
+        "10": 1
+    },
+    "min_child_samples": {
+        "10": 1
+    },
+    "boosting_type": {
+        "10": "gbdt"
+    },
+    "early_stopping_rounds": {
+        "10": 10
+    },
+    "objective": {
+        "10": "binary:logistic"
+    },
+    "eval_metric": {
+        "10": "logloss"
+    },
+    "monotonicity_constraints": {
+        "10": false
+    },
+    "silent": {
+        "10": true
+    },
+    "model_origin": {
+        "10": "RANDOM"
+    },
+    "early_stopping_threshold": {
+        "10": ""
+    },
+    "debug_verbose": {
+        "10": ""
+    }
+}{
+    "indiv_id": {
+        "11": 0
+    },
+    "iter_num": {
+        "11": 18
+    },
+    "accuracy": {
+        "11": 6
+    },
+    "time_tolerance": {
+        "11": 3
+    },
+    "interpretability": {
+        "11": 6
+    },
+    "score": {
+        "11": 0.4332084577
+    },
+    "score_sd": {
+        "11": 0.0058046435
+    },
+    "top derived_features": {
+        "11": "[['46_ClusterTE:ClusterID17:BILL_AMT3:PAY_0.0', 1.0], ['34_ClusterTE:ClusterID100:AGE:PAY_0:PAY_AMT6.0', 0.41695713996887207], ['51_NumToCatTE:PAY_0:PAY_AMT1:PAY_AMT3.0', 0.29326164722442627]]"
+    },
+    "top original_features": {
+        "11": "[['PAY_0', 0.27207222410785586], ['BILL_AMT3', 0.10035659789519823], ['AGE', 0.08465372979754544]]"
+    },
+    "training_times": {
+        "11": 1.1332182884
+    },
+    "best_iterations": {
+        "11": 54
+    },
+    "ngenes_start": {
+        "11": 66
+    },
+    "ngenes_max": {
+        "11": 22488
+    },
+    "ngenes": {
+        "11": 57
+    },
+    "ngenes_dead": {
+        "11": 2
+    },
+    "nfeatures_max": {
+        "11": 22488
+    },
+    "nfeatures": {
+        "11": 57
+    },
+    "model_name": {
+        "11": "XGBOOSTGBM"
+    },
+    "target_transformer_name": {
+        "11": "NoneType"
+    },
+    "booster": {
+        "11": "gbtree"
+    },
+    "n_gpus": {
+        "11": 1
+    },
+    "gpu_id": {
+        "11": 0
+    },
+    "n_jobs": {
+        "11": 32
+    },
+    "n_estimators": {
+        "11": 600
+    },
+    "num_classes": {
+        "11": 2
+    },
+    "num_class": {
+        "11": 1
+    },
+    "score_f_name": {
+        "11": "LOGLOSS"
+    },
+    "random_state": {
+        "11": 43992824
+    },
+    "learning_rate": {
+        "11": 0.1
+    },
+    "reg_alpha": {
+        "11": 0.0
+    },
+    "reg_lambda": {
+        "11": 1.0
+    },
+    "gamma": {
+        "11": 0
+    },
+    "max_bin": {
+        "11": 256
+    },
+    "scale_pos_weight": {
+        "11": 1
+    },
+    "max_delta_step": {
+        "11": 0
+    },
+    "min_child_weight": {
+        "11": 1
+    },
+    "subsample": {
+        "11": 0.7
+    },
+    "colsample_bytree": {
+        "11": 0.8
+    },
+    "tree_method": {
+        "11": "gpu_hist"
+    },
+    "grow_policy": {
+        "11": "depthwise"
+    },
+    "max_leaves": {
+        "11": 0
+    },
+    "max_depth": {
+        "11": 6
+    },
+    "min_data_in_bin": {
+        "11": ""
+    },
+    "min_child_samples": {
+        "11": ""
+    },
+    "boosting_type": {
+        "11": ""
+    },
+    "early_stopping_rounds": {
+        "11": 10
+    },
+    "objective": {
+        "11": "binary:logistic"
+    },
+    "eval_metric": {
+        "11": "logloss"
+    },
+    "monotonicity_constraints": {
+        "11": false
+    },
+    "silent": {
+        "11": true
+    },
+    "model_origin": {
+        "11": "RANDOM"
+    },
+    "early_stopping_threshold": {
+        "11": 0.0001
+    },
+    "debug_verbose": {
+        "11": 0
+    }
+}{
+    "indiv_id": {
+        "12": 0
+    },
+    "iter_num": {
+        "12": 19
+    },
+    "accuracy": {
+        "12": 6
+    },
+    "time_tolerance": {
+        "12": 3
+    },
+    "interpretability": {
+        "12": 6
+    },
+    "score": {
+        "12": 0.4343161564
+    },
+    "score_sd": {
+        "12": 0.0058689472
+    },
+    "top derived_features": {
+        "12": "[['55_WoE:PAY_0:PAY_4:PAY_5.0', 1.0], ['65_WoE:PAY_0:PAY_5:PAY_6.0', 0.5209600637106266], ['47_NumToCatWoE:PAY_0:PAY_AMT2.0', 0.21425158246284]]"
+    },
+    "top original_features": {
+        "12": "[['PAY_0', 0.24344931242776607], ['PAY_5', 0.17918592243455803], ['PAY_4', 0.10569399982482268]]"
+    },
+    "training_times": {
+        "12": 1.0356526375
+    },
+    "best_iterations": {
+        "12": 31
+    },
+    "ngenes_start": {
+        "12": 66
+    },
+    "ngenes_max": {
+        "12": 22488
+    },
+    "ngenes": {
+        "12": 59
+    },
+    "ngenes_dead": {
+        "12": 13
+    },
+    "nfeatures_max": {
+        "12": 22488
+    },
+    "nfeatures": {
+        "12": 61
+    },
+    "model_name": {
+        "12": "XGBOOSTGBM"
+    },
+    "target_transformer_name": {
+        "12": "NoneType"
+    },
+    "booster": {
+        "12": "gbtree"
+    },
+    "n_gpus": {
+        "12": 1
+    },
+    "gpu_id": {
+        "12": 0
+    },
+    "n_jobs": {
+        "12": 32
+    },
+    "n_estimators": {
+        "12": 600
+    },
+    "num_classes": {
+        "12": 2
+    },
+    "num_class": {
+        "12": 1
+    },
+    "score_f_name": {
+        "12": "LOGLOSS"
+    },
+    "random_state": {
+        "12": 43992824
+    },
+    "learning_rate": {
+        "12": 0.1
+    },
+    "reg_alpha": {
+        "12": 0.0
+    },
+    "reg_lambda": {
+        "12": 1.0
+    },
+    "gamma": {
+        "12": 0
+    },
+    "max_bin": {
+        "12": 256
+    },
+    "scale_pos_weight": {
+        "12": 1
+    },
+    "max_delta_step": {
+        "12": 0
+    },
+    "min_child_weight": {
+        "12": 1
+    },
+    "subsample": {
+        "12": 0.7
+    },
+    "colsample_bytree": {
+        "12": 0.8
+    },
+    "tree_method": {
+        "12": "gpu_hist"
+    },
+    "grow_policy": {
+        "12": "depthwise"
+    },
+    "max_leaves": {
+        "12": 0
+    },
+    "max_depth": {
+        "12": 6
+    },
+    "min_data_in_bin": {
+        "12": ""
+    },
+    "min_child_samples": {
+        "12": ""
+    },
+    "boosting_type": {
+        "12": ""
+    },
+    "early_stopping_rounds": {
+        "12": 10
+    },
+    "objective": {
+        "12": "binary:logistic"
+    },
+    "eval_metric": {
+        "12": "logloss"
+    },
+    "monotonicity_constraints": {
+        "12": false
+    },
+    "silent": {
+        "12": true
+    },
+    "model_origin": {
+        "12": "RANDOM"
+    },
+    "early_stopping_threshold": {
+        "12": 0.0001
+    },
+    "debug_verbose": {
+        "12": 0
+    }
+}{
+    "indiv_id": {
+        "13": 0
+    },
+    "iter_num": {
+        "13": 20
+    },
+    "accuracy": {
+        "13": 6
+    },
+    "time_tolerance": {
+        "13": 3
+    },
+    "interpretability": {
+        "13": 6
+    },
+    "score": {
+        "13": 0.433931493
+    },
+    "score_sd": {
+        "13": 0.0075563157
+    },
+    "top derived_features": {
+        "13": "[['103_WoE:PAY_0:PAY_2.0', 1.0], ['72_ClusterTE:ClusterID35:PAY_0:PAY_5.0', 0.43074116110801697], ['35_CVTE:PAY_0:PAY_5.0', 0.1787555068731308]]"
+    },
+    "top original_features": {
+        "13": "[['PAY_0', 0.3251444625843165], ['PAY_2', 0.15626381363212818], ['PAY_5', 0.09687546391063442]]"
+    },
+    "training_times": {
+        "13": 1.0124304295
+    },
+    "best_iterations": {
+        "13": 30
+    },
+    "ngenes_start": {
+        "13": 110
+    },
+    "ngenes_max": {
+        "13": 100000000
+    },
+    "ngenes": {
+        "13": 94
+    },
+    "ngenes_dead": {
+        "13": 21
+    },
+    "nfeatures_max": {
+        "13": 100000000
+    },
+    "nfeatures": {
+        "13": 110
+    },
+    "model_name": {
+        "13": "LIGHTGBM"
+    },
+    "target_transformer_name": {
+        "13": "NoneType"
+    },
+    "booster": {
+        "13": "lightgbm"
+    },
+    "n_gpus": {
+        "13": 1
+    },
+    "gpu_id": {
+        "13": 0
+    },
+    "n_jobs": {
+        "13": 32
+    },
+    "n_estimators": {
+        "13": 600
+    },
+    "num_classes": {
+        "13": 2
+    },
+    "num_class": {
+        "13": 1
+    },
+    "score_f_name": {
+        "13": "LOGLOSS"
+    },
+    "random_state": {
+        "13": 43992824
+    },
+    "learning_rate": {
+        "13": 0.1
+    },
+    "reg_alpha": {
+        "13": 0.0
+    },
+    "reg_lambda": {
+        "13": 1.0
+    },
+    "gamma": {
+        "13": 0
+    },
+    "max_bin": {
+        "13": 256
+    },
+    "scale_pos_weight": {
+        "13": 1
+    },
+    "max_delta_step": {
+        "13": 0
+    },
+    "min_child_weight": {
+        "13": 1
+    },
+    "subsample": {
+        "13": 0.7
+    },
+    "colsample_bytree": {
+        "13": 0.8
+    },
+    "tree_method": {
+        "13": "gpu_hist"
+    },
+    "grow_policy": {
+        "13": "depthwise"
+    },
+    "max_leaves": {
+        "13": 0
+    },
+    "max_depth": {
+        "13": 6
+    },
+    "min_data_in_bin": {
+        "13": 1
+    },
+    "min_child_samples": {
+        "13": 1
+    },
+    "boosting_type": {
+        "13": "gbdt"
+    },
+    "early_stopping_rounds": {
+        "13": 10
+    },
+    "objective": {
+        "13": "binary:logistic"
+    },
+    "eval_metric": {
+        "13": "logloss"
+    },
+    "monotonicity_constraints": {
+        "13": false
+    },
+    "silent": {
+        "13": true
+    },
+    "model_origin": {
+        "13": "SEQUENCE"
+    },
+    "early_stopping_threshold": {
+        "13": ""
+    },
+    "debug_verbose": {
+        "13": ""
+    }
+}{
+    "indiv_id": {
+        "14": 0
+    },
+    "iter_num": {
+        "14": 21
+    },
+    "accuracy": {
+        "14": 6
+    },
+    "time_tolerance": {
+        "14": 3
+    },
+    "interpretability": {
+        "14": 6
+    },
+    "score": {
+        "14": 0.4346033933
+    },
+    "score_sd": {
+        "14": 0.0063539743
+    },
+    "top derived_features": {
+        "14": "[['56_CVTE:PAY_0:PAY_2:PAY_5.0', 1.0], ['41_CVTE:PAY_0:PAY_3.0', 0.8372987508773804], ['49_CVCatNumEnc:PAY_0:PAY_2:LIMIT_BAL.sd', 0.49846941232681274]]"
+    },
+    "top original_features": {
+        "14": "[['PAY_0', 0.2773495184949791], ['PAY_2', 0.15537609666710328], ['PAY_3', 0.12436979676796592]]"
+    },
+    "training_times": {
+        "14": 0.9912052155
+    },
+    "best_iterations": {
+        "14": 29
+    },
+    "ngenes_start": {
+        "14": 110
+    },
+    "ngenes_max": {
+        "14": 100000000
+    },
+    "ngenes": {
+        "14": 97
+    },
+    "ngenes_dead": {
+        "14": 18
+    },
+    "nfeatures_max": {
+        "14": 100000000
+    },
+    "nfeatures": {
+        "14": 115
+    },
+    "model_name": {
+        "14": "LIGHTGBM"
+    },
+    "target_transformer_name": {
+        "14": "NoneType"
+    },
+    "booster": {
+        "14": "lightgbm"
+    },
+    "n_gpus": {
+        "14": 1
+    },
+    "gpu_id": {
+        "14": 0
+    },
+    "n_jobs": {
+        "14": 32
+    },
+    "n_estimators": {
+        "14": 600
+    },
+    "num_classes": {
+        "14": 2
+    },
+    "num_class": {
+        "14": 1
+    },
+    "score_f_name": {
+        "14": "LOGLOSS"
+    },
+    "random_state": {
+        "14": 43992824
+    },
+    "learning_rate": {
+        "14": 0.1
+    },
+    "reg_alpha": {
+        "14": 0.0
+    },
+    "reg_lambda": {
+        "14": 1.0
+    },
+    "gamma": {
+        "14": 0
+    },
+    "max_bin": {
+        "14": 256
+    },
+    "scale_pos_weight": {
+        "14": 1
+    },
+    "max_delta_step": {
+        "14": 0
+    },
+    "min_child_weight": {
+        "14": 1
+    },
+    "subsample": {
+        "14": 0.7
+    },
+    "colsample_bytree": {
+        "14": 0.8
+    },
+    "tree_method": {
+        "14": "gpu_hist"
+    },
+    "grow_policy": {
+        "14": "depthwise"
+    },
+    "max_leaves": {
+        "14": 0
+    },
+    "max_depth": {
+        "14": 6
+    },
+    "min_data_in_bin": {
+        "14": 1
+    },
+    "min_child_samples": {
+        "14": 1
+    },
+    "boosting_type": {
+        "14": "gbdt"
+    },
+    "early_stopping_rounds": {
+        "14": 10
+    },
+    "objective": {
+        "14": "binary:logistic"
+    },
+    "eval_metric": {
+        "14": "logloss"
+    },
+    "monotonicity_constraints": {
+        "14": false
+    },
+    "silent": {
+        "14": true
+    },
+    "model_origin": {
+        "14": "RANDOM"
+    },
+    "early_stopping_threshold": {
+        "14": ""
+    },
+    "debug_verbose": {
+        "14": ""
+    }
+}{
+    "indiv_id": {
+        "15": 0
+    },
+    "iter_num": {
+        "15": 22
+    },
+    "accuracy": {
+        "15": 6
+    },
+    "time_tolerance": {
+        "15": 3
+    },
+    "interpretability": {
+        "15": 6
+    },
+    "score": {
+        "15": 0.4358326122
+    },
+    "score_sd": {
+        "15": 0.0064156753
+    },
+    "top derived_features": {
+        "15": "[['83_WoE:PAY_0:PAY_2:PAY_5.0', 1.0], ['82_WoE:PAY_0:PAY_2.0', 0.3116786777973175], ['32_WoE:PAY_0:PAY_4:PAY_5.0', 0.08240877091884613]]"
+    },
+    "top original_features": {
+        "15": "[['PAY_0', 0.30046941277040934], ['PAY_2', 0.20716853464816803], ['PAY_5', 0.16207204632736674]]"
+    },
+    "training_times": {
+        "15": 0.9171702862
+    },
+    "best_iterations": {
+        "15": 29
+    },
+    "ngenes_start": {
+        "15": 110
+    },
+    "ngenes_max": {
+        "15": 100000000
+    },
+    "ngenes": {
+        "15": 84
+    },
+    "ngenes_dead": {
+        "15": 28
+    },
+    "nfeatures_max": {
+        "15": 100000000
+    },
+    "nfeatures": {
+        "15": 104
+    },
+    "model_name": {
+        "15": "LIGHTGBM"
+    },
+    "target_transformer_name": {
+        "15": "NoneType"
+    },
+    "booster": {
+        "15": "lightgbm"
+    },
+    "n_gpus": {
+        "15": 1
+    },
+    "gpu_id": {
+        "15": 0
+    },
+    "n_jobs": {
+        "15": 32
+    },
+    "n_estimators": {
+        "15": 600
+    },
+    "num_classes": {
+        "15": 2
+    },
+    "num_class": {
+        "15": 1
+    },
+    "score_f_name": {
+        "15": "LOGLOSS"
+    },
+    "random_state": {
+        "15": 43992824
+    },
+    "learning_rate": {
+        "15": 0.1
+    },
+    "reg_alpha": {
+        "15": 0.0
+    },
+    "reg_lambda": {
+        "15": 1.0
+    },
+    "gamma": {
+        "15": 0
+    },
+    "max_bin": {
+        "15": 256
+    },
+    "scale_pos_weight": {
+        "15": 1
+    },
+    "max_delta_step": {
+        "15": 0
+    },
+    "min_child_weight": {
+        "15": 1
+    },
+    "subsample": {
+        "15": 0.7
+    },
+    "colsample_bytree": {
+        "15": 0.8
+    },
+    "tree_method": {
+        "15": "gpu_hist"
+    },
+    "grow_policy": {
+        "15": "depthwise"
+    },
+    "max_leaves": {
+        "15": 0
+    },
+    "max_depth": {
+        "15": 6
+    },
+    "min_data_in_bin": {
+        "15": 1
+    },
+    "min_child_samples": {
+        "15": 1
+    },
+    "boosting_type": {
+        "15": "gbdt"
+    },
+    "early_stopping_rounds": {
+        "15": 10
+    },
+    "objective": {
+        "15": "binary:logistic"
+    },
+    "eval_metric": {
+        "15": "logloss"
+    },
+    "monotonicity_constraints": {
+        "15": false
+    },
+    "silent": {
+        "15": true
+    },
+    "model_origin": {
+        "15": "RANDOM"
+    },
+    "early_stopping_threshold": {
+        "15": ""
+    },
+    "debug_verbose": {
+        "15": ""
+    }
+}{
+    "indiv_id": {
+        "16": 0
+    },
+    "iter_num": {
+        "16": 23
+    },
+    "accuracy": {
+        "16": 6
+    },
+    "time_tolerance": {
+        "16": 3
+    },
+    "interpretability": {
+        "16": 6
+    },
+    "score": {
+        "16": 0.4348850051
+    },
+    "score_sd": {
+        "16": 0.0049394016
+    },
+    "top derived_features": {
+        "16": "[['108_WoE:PAY_0:PAY_2:PAY_5.0', 1.0], ['50_NumToCatWoE:PAY_0:PAY_4:PAY_AMT1.0', 0.6255380849714277], ['69_WoE:PAY_0.0', 0.1826982001554897]]"
+    },
+    "top original_features": {
+        "16": "[['PAY_0', 0.25556258412148736], ['PAY_2', 0.13573732545030068], ['PAY_5', 0.10523192484010321]]"
+    },
+    "training_times": {
+        "16": 1.1731593609
+    },
+    "best_iterations": {
+        "16": 34
+    },
+    "ngenes_start": {
+        "16": 110
+    },
+    "ngenes_max": {
+        "16": 22488
+    },
+    "ngenes": {
+        "16": 97
+    },
+    "ngenes_dead": {
+        "16": 18
+    },
+    "nfeatures_max": {
+        "16": 22488
+    },
+    "nfeatures": {
+        "16": 114
+    },
+    "model_name": {
+        "16": "XGBOOSTGBM"
+    },
+    "target_transformer_name": {
+        "16": "NoneType"
+    },
+    "booster": {
+        "16": "gbtree"
+    },
+    "n_gpus": {
+        "16": 1
+    },
+    "gpu_id": {
+        "16": 0
+    },
+    "n_jobs": {
+        "16": 32
+    },
+    "n_estimators": {
+        "16": 600
+    },
+    "num_classes": {
+        "16": 2
+    },
+    "num_class": {
+        "16": 1
+    },
+    "score_f_name": {
+        "16": "LOGLOSS"
+    },
+    "random_state": {
+        "16": 43992824
+    },
+    "learning_rate": {
+        "16": 0.1
+    },
+    "reg_alpha": {
+        "16": 0.0
+    },
+    "reg_lambda": {
+        "16": 1.0
+    },
+    "gamma": {
+        "16": 0
+    },
+    "max_bin": {
+        "16": 256
+    },
+    "scale_pos_weight": {
+        "16": 1
+    },
+    "max_delta_step": {
+        "16": 0
+    },
+    "min_child_weight": {
+        "16": 1
+    },
+    "subsample": {
+        "16": 0.7
+    },
+    "colsample_bytree": {
+        "16": 0.8
+    },
+    "tree_method": {
+        "16": "gpu_hist"
+    },
+    "grow_policy": {
+        "16": "depthwise"
+    },
+    "max_leaves": {
+        "16": 0
+    },
+    "max_depth": {
+        "16": 6
+    },
+    "min_data_in_bin": {
+        "16": ""
+    },
+    "min_child_samples": {
+        "16": ""
+    },
+    "boosting_type": {
+        "16": ""
+    },
+    "early_stopping_rounds": {
+        "16": 10
+    },
+    "objective": {
+        "16": "binary:logistic"
+    },
+    "eval_metric": {
+        "16": "logloss"
+    },
+    "monotonicity_constraints": {
+        "16": false
+    },
+    "silent": {
+        "16": true
+    },
+    "model_origin": {
+        "16": "SEQUENCE"
+    },
+    "early_stopping_threshold": {
+        "16": 0.0001
+    },
+    "debug_verbose": {
+        "16": 0
+    }
+}{
+    "indiv_id": {
+        "17": 1,
+        "18": 3
+    },
+    "iter_num": {
+        "17": 25,
+        "18": 25
+    },
+    "accuracy": {
+        "17": 6,
+        "18": 6
+    },
+    "time_tolerance": {
+        "17": 3,
+        "18": 3
+    },
+    "interpretability": {
+        "17": 6,
+        "18": 6
+    },
+    "score": {
+        "17": 0.4319276985,
+        "18": 0.4323938819
+    },
+    "score_sd": {
+        "17": 0.0050351563,
+        "18": 0.0050104365
+    },
+    "top derived_features": {
+        "17": "[['10_PAY_0', 1.0], ['11_PAY_2', 0.21235843002796173], ['8_LIMIT_BAL', 0.15472139418125153]]",
+        "18": "[['10_PAY_0', 1.0], ['11_PAY_2', 0.29479366540908813], ['8_LIMIT_BAL', 0.10683796554803848]]"
+    },
+    "top original_features": {
+        "17": "[['PAY_0', 0.3384280205327645], ['BILL_AMT1', 0.07276807718944105], ['PAY_2', 0.07186804311780866]]",
+        "18": "[['PAY_0', 0.4328913485796192], ['PAY_2', 0.1276136273716692], ['LIMIT_BAL', 0.046249230985593276]]"
+    },
+    "training_times": {
+        "17": 1.094825983,
+        "18": 0.6618361473
+    },
+    "best_iterations": {
+        "17": 50,
+        "18": 37
+    },
+    "ngenes_start": {
+        "17": 22,
+        "18": 22
+    },
+    "ngenes_max": {
+        "17": 22488,
+        "18": 100000000
+    },
+    "ngenes": {
+        "17": 24,
+        "18": 20
+    },
+    "ngenes_dead": {
+        "17": 3,
+        "18": 4
+    },
+    "nfeatures_max": {
+        "17": 22488,
+        "18": 100000000
+    },
+    "nfeatures": {
+        "17": 24,
+        "18": 20
+    },
+    "model_name": {
+        "17": "XGBOOSTGBM",
+        "18": "LIGHTGBM"
+    },
+    "target_transformer_name": {
+        "17": "NoneType",
+        "18": "NoneType"
+    },
+    "booster": {
+        "17": "gbtree",
+        "18": "lightgbm"
+    },
+    "n_gpus": {
+        "17": 1,
+        "18": 1
+    },
+    "gpu_id": {
+        "17": 0,
+        "18": 0
+    },
+    "n_jobs": {
+        "17": 32,
+        "18": 32
+    },
+    "n_estimators": {
+        "17": 600,
+        "18": 600
+    },
+    "num_classes": {
+        "17": 2,
+        "18": 2
+    },
+    "num_class": {
+        "17": 1,
+        "18": 1
+    },
+    "score_f_name": {
+        "17": "LOGLOSS",
+        "18": "LOGLOSS"
+    },
+    "random_state": {
+        "17": 43992824,
+        "18": 43992824
+    },
+    "learning_rate": {
+        "17": 0.1,
+        "18": 0.1
+    },
+    "reg_alpha": {
+        "17": 0.0,
+        "18": 0.0
+    },
+    "reg_lambda": {
+        "17": 1.0,
+        "18": 1.0
+    },
+    "gamma": {
+        "17": 0,
+        "18": 0
+    },
+    "max_bin": {
+        "17": 256,
+        "18": 256
+    },
+    "scale_pos_weight": {
+        "17": 1,
+        "18": 1
+    },
+    "max_delta_step": {
+        "17": 0,
+        "18": 0
+    },
+    "min_child_weight": {
+        "17": 1,
+        "18": 1
+    },
+    "subsample": {
+        "17": 0.7,
+        "18": 0.7
+    },
+    "colsample_bytree": {
+        "17": 0.8,
+        "18": 0.8
+    },
+    "tree_method": {
+        "17": "gpu_hist",
+        "18": "gpu_hist"
+    },
+    "grow_policy": {
+        "17": "depthwise",
+        "18": "depthwise"
+    },
+    "max_leaves": {
+        "17": 0,
+        "18": 0
+    },
+    "max_depth": {
+        "17": 6,
+        "18": 6
+    },
+    "min_data_in_bin": {
+        "17": "",
+        "18": 1.0
+    },
+    "min_child_samples": {
+        "17": "",
+        "18": 1.0
+    },
+    "boosting_type": {
+        "17": "",
+        "18": "gbdt"
+    },
+    "early_stopping_rounds": {
+        "17": 10,
+        "18": 10
+    },
+    "objective": {
+        "17": "binary:logistic",
+        "18": "binary:logistic"
+    },
+    "eval_metric": {
+        "17": "logloss",
+        "18": "logloss"
+    },
+    "monotonicity_constraints": {
+        "17": false,
+        "18": false
+    },
+    "silent": {
+        "17": true,
+        "18": true
+    },
+    "model_origin": {
+        "17": "RANDOM",
+        "18": "DefaultIndiv: do_te:False,interp:11,depth:6,num_as_cat:False"
+    },
+    "early_stopping_threshold": {
+        "17": 0.0001,
+        "18": ""
+    },
+    "debug_verbose": {
+        "17": 0.0,
+        "18": ""
+    }
+}{
+    "indiv_id": {
+        "19": 1,
+        "20": 2
+    },
+    "iter_num": {
+        "19": 26,
+        "20": 26
+    },
+    "accuracy": {
+        "19": 6,
+        "20": 6
+    },
+    "time_tolerance": {
+        "19": 3,
+        "20": 3
+    },
+    "interpretability": {
+        "19": 6,
+        "20": 6
+    },
+    "score": {
+        "19": 0.4323938819,
+        "20": 0.4326508951
+    },
+    "score_sd": {
+        "19": 0.0048171207,
+        "20": 0.0047399429
+    },
+    "top derived_features": {
+        "19": "[['10_PAY_0', 1.0], ['11_PAY_2', 0.3162900507450104], ['8_LIMIT_BAL', 0.11005698889493942]]",
+        "20": "[['10_PAY_0', 1.0], ['11_PAY_2', 0.1706131100654602], ['8_LIMIT_BAL', 0.14932894706726074]]"
+    },
+    "top original_features": {
+        "19": "[['PAY_0', 0.40304034508406344], ['PAY_2', 0.11815245886057311], ['PAY_AMT6', 0.0486087327588336]]",
+        "20": "[['PAY_0', 0.382496394001369], ['PAY_2', 0.0652588993693972], ['LIMIT_BAL', 0.05711778377324854]]"
+    },
+    "training_times": {
+        "19": 0.5625815392,
+        "20": 1.0223450661
+    },
+    "best_iterations": {
+        "19": 38,
+        "20": 43
+    },
+    "ngenes_start": {
+        "19": 22,
+        "20": 22
+    },
+    "ngenes_max": {
+        "19": 100000000,
+        "20": 22488
+    },
+    "ngenes": {
+        "19": 21,
+        "20": 20
+    },
+    "ngenes_dead": {
+        "19": 14,
+        "20": 6
+    },
+    "nfeatures_max": {
+        "19": 100000000,
+        "20": 22488
+    },
+    "nfeatures": {
+        "19": 21,
+        "20": 20
+    },
+    "model_name": {
+        "19": "LIGHTGBM",
+        "20": "XGBOOSTGBM"
+    },
+    "target_transformer_name": {
+        "19": "NoneType",
+        "20": "NoneType"
+    },
+    "booster": {
+        "19": "lightgbm",
+        "20": "gbtree"
+    },
+    "n_gpus": {
+        "19": 1,
+        "20": 1
+    },
+    "gpu_id": {
+        "19": 0,
+        "20": 0
+    },
+    "n_jobs": {
+        "19": 32,
+        "20": 32
+    },
+    "n_estimators": {
+        "19": 600,
+        "20": 600
+    },
+    "num_classes": {
+        "19": 2,
+        "20": 2
+    },
+    "num_class": {
+        "19": 1,
+        "20": 1
+    },
+    "score_f_name": {
+        "19": "LOGLOSS",
+        "20": "LOGLOSS"
+    },
+    "random_state": {
+        "19": 43992824,
+        "20": 43992824
+    },
+    "learning_rate": {
+        "19": 0.1,
+        "20": 0.1
+    },
+    "reg_alpha": {
+        "19": 0.0,
+        "20": 0.0
+    },
+    "reg_lambda": {
+        "19": 1.0,
+        "20": 1.0
+    },
+    "gamma": {
+        "19": 0,
+        "20": 0
+    },
+    "max_bin": {
+        "19": 256,
+        "20": 256
+    },
+    "scale_pos_weight": {
+        "19": 1,
+        "20": 1
+    },
+    "max_delta_step": {
+        "19": 0,
+        "20": 0
+    },
+    "min_child_weight": {
+        "19": 1,
+        "20": 1
+    },
+    "subsample": {
+        "19": 0.7,
+        "20": 0.7
+    },
+    "colsample_bytree": {
+        "19": 0.8,
+        "20": 0.8
+    },
+    "tree_method": {
+        "19": "gpu_hist",
+        "20": "gpu_hist"
+    },
+    "grow_policy": {
+        "19": "depthwise",
+        "20": "depthwise"
+    },
+    "max_leaves": {
+        "19": 0,
+        "20": 0
+    },
+    "max_depth": {
+        "19": 6,
+        "20": 6
+    },
+    "min_data_in_bin": {
+        "19": 1.0,
+        "20": ""
+    },
+    "min_child_samples": {
+        "19": 1.0,
+        "20": ""
+    },
+    "boosting_type": {
+        "19": "gbdt",
+        "20": ""
+    },
+    "early_stopping_rounds": {
+        "19": 10,
+        "20": 10
+    },
+    "objective": {
+        "19": "binary:logistic",
+        "20": "binary:logistic"
+    },
+    "eval_metric": {
+        "19": "logloss",
+        "20": "logloss"
+    },
+    "monotonicity_constraints": {
+        "19": false,
+        "20": false
+    },
+    "silent": {
+        "19": true,
+        "20": true
+    },
+    "model_origin": {
+        "19": "DefaultIndiv: do_te:False,interp:11,depth:6,num_as_cat:False",
+        "20": "RANDOM"
+    },
+    "early_stopping_threshold": {
+        "19": "",
+        "20": 0.0001
+    },
+    "debug_verbose": {
+        "19": "",
+        "20": 0.0
+    }
+}{
+    "indiv_id": {
+        "21": 2,
+        "22": 3
+    },
+    "iter_num": {
+        "21": 27,
+        "22": 27
+    },
+    "accuracy": {
+        "21": 6,
+        "22": 6
+    },
+    "time_tolerance": {
+        "21": 3,
+        "22": 3
+    },
+    "interpretability": {
+        "21": 6,
+        "22": 6
+    },
+    "score": {
+        "21": 0.4345734456,
+        "22": 0.433013154
+    },
+    "score_sd": {
+        "21": 0.0045784179,
+        "22": 0.0048148735
+    },
+    "top derived_features": {
+        "21": "[['10_PAY_0', 1.0], ['12_PAY_3', 0.1712195724248886], ['11_PAY_2', 0.17006416618824005]]",
+        "22": "[['10_PAY_0', 1.0], ['34_ClusterTE:ClusterID93:PAY_0.0', 0.45556890964508057], ['11_PAY_2', 0.14896324276924133]]"
+    },
+    "top original_features": {
+        "21": "[['PAY_0', 0.3432685111362223], ['PAY_2', 0.09573927231362951], ['PAY_3', 0.0587742877036721]]",
+        "22": "[['PAY_0', 0.5103070873549592], ['PAY_2', 0.052224939703512135], ['PAY_AMT2', 0.0464933348598764]]"
+    },
+    "training_times": {
+        "21": 1.0700244904,
+        "22": 0.5394144058
+    },
+    "best_iterations": {
+        "21": 43,
+        "22": 39
+    },
+    "ngenes_start": {
+        "21": 22,
+        "22": 22
+    },
+    "ngenes_max": {
+        "21": 22488,
+        "22": 100000000
+    },
+    "ngenes": {
+        "21": 15,
+        "22": 21
+    },
+    "ngenes_dead": {
+        "21": 13,
+        "22": 14
+    },
+    "nfeatures_max": {
+        "21": 22488,
+        "22": 100000000
+    },
+    "nfeatures": {
+        "21": 15,
+        "22": 21
+    },
+    "model_name": {
+        "21": "XGBOOSTGBM",
+        "22": "LIGHTGBM"
+    },
+    "target_transformer_name": {
+        "21": "NoneType",
+        "22": "NoneType"
+    },
+    "booster": {
+        "21": "gbtree",
+        "22": "lightgbm"
+    },
+    "n_gpus": {
+        "21": 1,
+        "22": 1
+    },
+    "gpu_id": {
+        "21": 0,
+        "22": 0
+    },
+    "n_jobs": {
+        "21": 32,
+        "22": 32
+    },
+    "n_estimators": {
+        "21": 600,
+        "22": 600
+    },
+    "num_classes": {
+        "21": 2,
+        "22": 2
+    },
+    "num_class": {
+        "21": 1,
+        "22": 1
+    },
+    "score_f_name": {
+        "21": "LOGLOSS",
+        "22": "LOGLOSS"
+    },
+    "random_state": {
+        "21": 43992824,
+        "22": 43992824
+    },
+    "learning_rate": {
+        "21": 0.1,
+        "22": 0.1
+    },
+    "reg_alpha": {
+        "21": 0.0,
+        "22": 0.0
+    },
+    "reg_lambda": {
+        "21": 1.0,
+        "22": 1.0
+    },
+    "gamma": {
+        "21": 0,
+        "22": 0
+    },
+    "max_bin": {
+        "21": 256,
+        "22": 256
+    },
+    "scale_pos_weight": {
+        "21": 1,
+        "22": 1
+    },
+    "max_delta_step": {
+        "21": 0,
+        "22": 0
+    },
+    "min_child_weight": {
+        "21": 1,
+        "22": 1
+    },
+    "subsample": {
+        "21": 0.7,
+        "22": 0.7
+    },
+    "colsample_bytree": {
+        "21": 0.8,
+        "22": 0.8
+    },
+    "tree_method": {
+        "21": "gpu_hist",
+        "22": "gpu_hist"
+    },
+    "grow_policy": {
+        "21": "depthwise",
+        "22": "depthwise"
+    },
+    "max_leaves": {
+        "21": 0,
+        "22": 0
+    },
+    "max_depth": {
+        "21": 6,
+        "22": 6
+    },
+    "min_data_in_bin": {
+        "21": "",
+        "22": 1.0
+    },
+    "min_child_samples": {
+        "21": "",
+        "22": 1.0
+    },
+    "boosting_type": {
+        "21": "",
+        "22": "gbdt"
+    },
+    "early_stopping_rounds": {
+        "21": 10,
+        "22": 10
+    },
+    "objective": {
+        "21": "binary:logistic",
+        "22": "binary:logistic"
+    },
+    "eval_metric": {
+        "21": "logloss",
+        "22": "logloss"
+    },
+    "monotonicity_constraints": {
+        "21": false,
+        "22": false
+    },
+    "silent": {
+        "21": true,
+        "22": true
+    },
+    "model_origin": {
+        "21": "RANDOM",
+        "22": "DefaultIndiv: do_te:False,interp:11,depth:6,num_as_cat:False"
+    },
+    "early_stopping_threshold": {
+        "21": 0.0001,
+        "22": ""
+    },
+    "debug_verbose": {
+        "21": 0.0,
+        "22": ""
+    }
+}

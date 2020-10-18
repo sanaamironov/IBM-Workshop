@@ -1,0 +1,27 @@
+Variable Importance Shift Between Best Iteration Model and Final Model
++----+-----------------------+--------------------------------+-------------+----------------------+
+|    |   Relative Importance |   Shift of Relative Importance | Feature     | Description          |
+|----+-----------------------+--------------------------------+-------------+----------------------|
+|  0 |            1          |                    0           | 10_PAY_0    | PAY_0 (original)     |
+|  1 |            0.297976   |                    0.0875646   | 11_PAY_2    | PAY_2 (original)     |
+|  2 |            0.132166   |                    0.0161993   | 8_LIMIT_BAL | LIMIT_BAL (original) |
+|  3 |            0.12385    |                    0.0155248   | 1_BILL_AMT1 | BILL_AMT1 (original) |
+|  4 |            0.114452   |                    0.034176    | 18_PAY_AMT3 | PAY_AMT3 (original)  |
+|  5 |            0.109013   |                    0.00270876  | 17_PAY_AMT2 | PAY_AMT2 (original)  |
+|  6 |            0.0931608  |                    0.00282476  | 16_PAY_AMT1 | PAY_AMT1 (original)  |
+|  7 |            0.0768363  |                    0.0138879   | 0_AGE       | AGE (original)       |
+|  8 |            0.070203   |                    0.00561249  | 12_PAY_3    | PAY_3 (original)     |
+|  9 |            0.0686591  |                    0.00880113  | 19_PAY_AMT4 | PAY_AMT4 (original)  |
+| 10 |            0.0681225  |                    0.0138868   | 2_BILL_AMT2 | BILL_AMT2 (original) |
+| 11 |            0.0650798  |                    0.00638486  | 21_PAY_AMT6 | PAY_AMT6 (original)  |
+| 12 |            0.0634614  |                    0.0164512   | 20_PAY_AMT5 | PAY_AMT5 (original)  |
+| 13 |            0.049799   |                    0.00403427  | 6_BILL_AMT6 | BILL_AMT6 (original) |
+| 14 |            0.0493901  |                    0.00906705  | 5_BILL_AMT5 | BILL_AMT5 (original) |
+| 15 |            0.0486354  |                   -0.0025083   | 14_PAY_5    | PAY_5 (original)     |
+| 16 |            0.0477524  |                    0.0143385   | 13_PAY_4    | PAY_4 (original)     |
+| 17 |            0.0475155  |                   -0.00551606  | 4_BILL_AMT4 | BILL_AMT4 (original) |
+| 18 |            0.047087   |                    0.000559788 | 3_BILL_AMT3 | BILL_AMT3 (original) |
+| 19 |            0.0401816  |                    0.0100694   | 15_PAY_6    | PAY_6 (original)     |
+| 20 |            0.0147397  |                    0.00318785  | 7_EDUCATION | EDUCATION (original) |
+| 21 |            0.00815471 |                   -7.98153e-05 | 9_MARRIAGE  | MARRIAGE (original)  |
++----+-----------------------+--------------------------------+-------------+----------------------+

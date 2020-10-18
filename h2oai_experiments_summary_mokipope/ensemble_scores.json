@@ -1,0 +1,50 @@
+{
+    "Optimized": {
+        "MCC": "",
+        "MACROAUC": "",
+        "GINI": "",
+        "F2": "",
+        "F1": "",
+        "F05": "",
+        "AUCPR": "",
+        "AUC": "",
+        "ACCURACY": "",
+        "LOGLOSS": "*"
+    },
+    "Better score is": {
+        "MCC": "higher",
+        "MACROAUC": "higher",
+        "GINI": "higher",
+        "F2": "higher",
+        "F1": "higher",
+        "F05": "higher",
+        "AUCPR": "higher",
+        "AUC": "higher",
+        "ACCURACY": "higher",
+        "LOGLOSS": "lower"
+    },
+    "Final ensemble scores on validation (internal or external holdout(s)) data": {
+        "MCC": "0.43213",
+        "MACROAUC": "0.78576",
+        "GINI": "0.57152",
+        "F2": "0.64715",
+        "F1": "0.55196",
+        "F05": "0.58775",
+        "AUCPR": "0.56519",
+        "AUC": "0.78576",
+        "ACCURACY": "0.82295",
+        "LOGLOSS": "0.426"
+    },
+    "Final ensemble standard deviation on validation (internal or external holdout(s)) data": {
+        "MCC": "0.013112",
+        "MACROAUC": "0.0070701",
+        "GINI": "0.01414",
+        "F2": "0.007697",
+        "F1": "0.010569",
+        "F05": "0.013305",
+        "AUCPR": "0.014075",
+        "AUC": "0.0070701",
+        "ACCURACY": "0.0048736",
+        "LOGLOSS": "0.0085383"
+    }
+}
